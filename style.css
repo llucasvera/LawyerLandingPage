@@ -328,10 +328,23 @@ transform: translateX(0);
 display: block;
 }
 
-.map{
-    max-width: 80vh;
+
 }
 
+
+@media (max-width: 768px) {
+  .we {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .map {
+    width: 100% !important;
+    height: 300px !important;
+    border-radius: 8px;
+  }
 }
 
 
